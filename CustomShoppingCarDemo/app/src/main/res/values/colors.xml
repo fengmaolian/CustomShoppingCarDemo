@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题的颜色-->
+    <color name="title_color_ff0000">#fa5858</color>
+    <!--按钮的颜色及文字颜色-->
+    <color name="btn_color_true">#ffffff</color>
+    <color name="btn_color_false">#fa5858</color>
+    <!--其它颜色-->
+    <color name="color_fa5858">#fa5858</color>
+    <color name="white">#ffffff</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_D5D4D4">#D5D4D4</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_2d2d2d">#2d2d2d</color>
+    <color name="color_E84646">#E84646</color>
+    <color name="color_menu_back">#F3F2F2</color>
+    <color name="color_menu_lines">#CDCACA</color>
+    <color name="color_DEDEDE">#DEDEDE</color>
+    <color name="color_898787">#898787</color>
+    <color name="color_f1efef">#f1efef</color>
+    <color name="color_959494">#959494</color>
+    <color name="color_AA68F5">#AA68F5</color>
+    <color name="color_5BD5C5">#5BD5C5</color>
+    <color name="color_bfbdbd">#bfbdbd</color>
+
+    <color name="c_999999">#bbbbbb</color>
+    <color name="c_6e">#eeeeee</color>
+
+
+    <color name="Color_F96F25">#ffF96F25</color>
+    <color name="color_AA67F5">#AA67F5</color>
+    <color name="color_9ACEFC">#7CC0FB</color>
+
+
+</resources>

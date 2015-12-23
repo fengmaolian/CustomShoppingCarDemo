@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/fml_title_layout"/>
+    <LinearLayout
+        android:layout_above="@+id/view"
+        android:layout_below="@+id/include"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/m_list_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:scrollbars="none">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/m_list_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scrollbars="none">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/m_list_bt"
+        android:background="@color/color_fa5858"/>
+
+    <RelativeLayout
+        android:id="@+id/m_list_bt"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/m_list_all_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_2d2d2d"
+            android:text="￥74"/>
+        <View android:id="@+id/m_listview"
+            android:layout_width="1dp"
+            android:layout_height="26px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/m_list_all_price"
+            android:background="@color/color_f2f2f2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/m_listview"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_898787"
+            android:text="另需服务费￥3"/>
+        <Button android:id="@+id/m_list_submit"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@color/color_fa5858"
+            android:text="点餐"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/m_list_car_lay"
+        android:layout_width="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/m_list_car"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon_shop_car"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/m_list_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goods_tv_bg_selector"
+        android:layout_alignRight="@+id/m_list_car_lay"
+        android:layout_alignTop="@+id/m_list_car_lay"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="0"
+        android:textColor="@color/white"/>
+</RelativeLayout>

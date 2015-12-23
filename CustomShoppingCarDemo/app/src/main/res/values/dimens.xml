@@ -1,0 +1,49 @@
+<resources>
+    <!--标题的设置-->
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="title_left_size">15sp</dimen>
+    <dimen name="title_center_size">22sp</dimen>
+    <dimen name="title_right_size">15sp</dimen>
+    <!--按钮设置-->
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_size">13sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="sp10">10.0sp</dimen>
+    <dimen name="sp11">11.0sp</dimen>
+    <dimen name="sp12">12.0sp</dimen>
+    <dimen name="sp13">13.0sp</dimen>
+    <dimen name="sp14">14.0sp</dimen>
+    <dimen name="sp15">15.0sp</dimen>
+    <dimen name="sp16">16.0sp</dimen>
+    <dimen name="sp17">17.0sp</dimen>
+    <dimen name="sp18">18.0sp</dimen>
+    <dimen name="sp19">19.0sp</dimen>
+    <dimen name="sp20">20.0sp</dimen>
+    <dimen name="sp21">21.0sp</dimen>
+    <dimen name="sp22">22.0sp</dimen>
+    <dimen name="sp23">23.0sp</dimen>
+    <dimen name="sp25">25.0sp</dimen>
+
+    <dimen name="image_dp">80dp</dimen>
+
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp2">2dp</dimen>
+    <dimen name="dp3">3dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp6">6dp</dimen>
+    <dimen name="dp7">7dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp9">9dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp11">11dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="dp13">13dp</dimen>
+    <dimen name="dp14">14dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
